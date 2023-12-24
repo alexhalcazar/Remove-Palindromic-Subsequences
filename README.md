@@ -15,26 +15,28 @@ A string is called palindrome if is one that reads the same backward as well as 
 > Input: s = "ababa"
 Output: 1
     
-Explanation 1: s is already a palindrome, so its entirety can be removed in a single step.
+Explanation 1: 
+**s** is already a palindrome, so its entirety can be removed in a single step.
 
 ### Example 2:
 
 > Input: s = "abb"
 Output: 2
 
-Explanation 2: "abb" -> "bb" -> "".
-Remove palindromic subsequence "a" then "bb".
+Explanation 2: 
+**"abb"** -> **"bb"** -> **""**.
+Remove palindromic subsequence **"a"** then **"bb"**.
 
 ### Example 3:
 
 > Input: s = "baabb"
 Output: 2
 
-Explanation 3: "baabb" -> "b" -> "".
-Remove palindromic subsequence "baab" then "b".
+Explanation 3: **"baabb"** -> **"b"** -> **""**.
+Remove palindromic subsequence **"baab"** then **"b"**.
 
-### Constraints:
-1 <= s.length <= 1000
-s[i] is either 'a' or 'b'.
+### Constraints:*
+**1 <= s.length <= 1000**
+**s[i]** is either **'a'** or **'b'**.
 
 
